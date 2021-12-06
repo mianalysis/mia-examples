@@ -1,5 +1,7 @@
-Example 1: Segmentation of nuclei
+Example 1: Segmentation of nuclei in 3D from confocal stacks
 ---------------------------------
+
+In this example we'll segment nuclei in 3D from a confocal image stack and measure some basic shape properties.
 
 This example introduces the following concepts:
 - Loading images into the MIA

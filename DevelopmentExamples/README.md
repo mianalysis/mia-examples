@@ -4,6 +4,7 @@ Examples of developing new functionality for the modular image and object analys
 
 For the full MIA documentation, please go to [mianalysis.github.io](https://mianalysis.github.io)
 
+The Javadoc for the latest version of MIA can be found [here](https://javadoc.io/doc/io.github.mianalysis/MIA).
 
 Note
 ------------

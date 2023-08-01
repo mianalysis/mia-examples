@@ -17,6 +17,9 @@ While these workflows correspond to a specific analysis, the principles covered 
 
 Note: Any object outlines in the generated "overlay" images will typically only be visible when opened in ImageJ/Fiji.
 
+Development examples
+------------
+The [DevelopmentExamples](https://github.com/mianalysis/mia-examples/tree/main/DevelopmentExamples) folder includes examples for developers such as template custom modules.
 
 Note
 ------------

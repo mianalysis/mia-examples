@@ -67,6 +67,7 @@ public class TemplateModule extends Module {
     }
 
     /**
+<<<<<<< HEAD
      * Since MIA v1.4.0, each Module has been given a version number returned by this function.  The intention is that these version numbers follow the standard semantic versioning format, where the numbers indicate changes in the form major.minor.patch.  When loading a workflow, MIA checks the version number of a module against the version number of the module used to create the workflow.  Based on any differences in version number, MIA will display a warning to users about the likelihood of results coming from that module being different.
      */
     @Override
@@ -75,6 +76,8 @@ public class TemplateModule extends Module {
     }
     
     /**
+=======
+>>>>>>> 7f7a5e54dd78e118728865ba35a1f69dc2d224be
      * Each module should include a description which will be included in the GUI (accessible by going to View / Show help panel) as well as in the automatically-generated online documentation at https://mianalysis.github.io/modules.
      */
     @Override

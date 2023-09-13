@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <project xmlns="http://maven.apache.org/POM/4.0.0"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -48,3 +49,55 @@
         </dependency>
     </dependencies>
 </project>
+=======
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.mianalysis</groupId>
+    <artifactId>mia-examples</artifactId>
+    <version>1.0.0</version>
+    <packaging>jar</packaging>
+    <name>mia-module-example</name>
+
+    <licenses>
+        <license>
+            <name>GNU General Public License v3+</name>
+            <url>http://www.gnu.org/licenses/gpl.html</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <dependency.locations.selected>false</dependency.locations.selected>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <scp>compile</scp>
+        <license.licenseName>GNU General Public License v3+</license.licenseName>
+        <license.copyrightOwners>Stephen Cross</license.copyrightOwners>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>scijava.public</id>
+            <url>https://maven.scijava.org/content/groups/public</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <dependency>
+            <groupId>net.imagej</groupId>
+            <artifactId>imagej</artifactId>
+            <version>2.14.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.mianalysis</groupId>
+            <artifactId>MIA</artifactId>
+            <version>1.2.10-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+</project>
+>>>>>>> 7f7a5e54dd78e118728865ba35a1f69dc2d224be

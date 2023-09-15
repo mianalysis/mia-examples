@@ -16,21 +16,14 @@ import io.github.mianalysis.mia.module.Modules;
 import io.github.mianalysis.mia.module.objects.measure.intensity.MeasureObjectIntensity;
 import io.github.mianalysis.mia.module.visualise.overlays.AddObjectCentroid;
 import io.github.mianalysis.mia.module.visualise.overlays.AddObjectFill;
-<<<<<<< HEAD
 import io.github.mianalysis.mia.module.visualise.overlays.AddObjectOutline;
-=======
-import io.github.mianalysis.mia.module.visualise.overlays.AddObjectOutline; 
->>>>>>> 7f7a5e54dd78e118728865ba35a1f69dc2d224be
 import io.github.mianalysis.mia.object.Measurement;
 import io.github.mianalysis.mia.object.Obj;
 import io.github.mianalysis.mia.object.Objs;
 import io.github.mianalysis.mia.object.Workspace;
-<<<<<<< HEAD
 import io.github.mianalysis.mia.object.coordinates.Point;
 import io.github.mianalysis.mia.object.coordinates.volume.PointOutOfRangeException;
 import io.github.mianalysis.mia.object.coordinates.volume.VolumeType;
-=======
->>>>>>> 7f7a5e54dd78e118728865ba35a1f69dc2d224be
 import io.github.mianalysis.mia.object.image.Image;
 import io.github.mianalysis.mia.object.image.ImageFactory;
 import io.github.mianalysis.mia.object.parameters.ChoiceP;
@@ -49,14 +42,7 @@ import io.github.mianalysis.mia.object.refs.collections.ParentChildRefs;
 import io.github.mianalysis.mia.object.refs.collections.PartnerRefs;
 import io.github.mianalysis.mia.object.system.Status;
 import io.github.mianalysis.mia.process.ColourFactory;
-<<<<<<< HEAD
 import io.github.mianalysis.mia.process.math.CumStat;
-=======
-import io.github.sjcross.sjcommon.mathfunc.CumStat;
-import io.github.sjcross.sjcommon.object.Point;
-import io.github.sjcross.sjcommon.object.volume.PointOutOfRangeException;
-import io.github.sjcross.sjcommon.object.volume.VolumeType;
->>>>>>> 7f7a5e54dd78e118728865ba35a1f69dc2d224be
 import net.imagej.ImageJ;
 
 /**
@@ -160,7 +146,6 @@ public class ExampleModule extends Module {
     }
 
     /**
-<<<<<<< HEAD
      * Since MIA v1.4.0, each Module has been given a version number returned by this function.  The intention is that these version numbers follow the standard semantic versioning format, where the numbers indicate changes in the form major.minor.patch.  When loading a workflow, MIA checks the version number of a module against the version number of the module used to create the workflow.  Based on any differences in version number, MIA will display a warning to users about the likelihood of results coming from that module being different.
      */
     @Override
@@ -169,8 +154,6 @@ public class ExampleModule extends Module {
     }
 
     /**
-=======
->>>>>>> 7f7a5e54dd78e118728865ba35a1f69dc2d224be
      * Each module should include a description which will be included in the GUI (accessible by going to View / Show help panel) as well as in the automatically-generated online documentation at https://mianalysis.github.io/modules.
      */
     @Override

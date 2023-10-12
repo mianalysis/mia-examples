@@ -4,6 +4,7 @@ Example 2: Tracking objects
 This example shows how to track previously-detected objects cross multiple frames.  
 
 ![Example output](./resources/example.gif)
+
 _**Key stages in detection and tracking of nuclei.** (Left) Raw images showing nuclei over time. (Middle) Centroids of detected nuclei highlighted with orange spots. (Right) Trajectories of tracked nuclei representwd by lines, colour-coded according to instantaneous velocity._
 
 

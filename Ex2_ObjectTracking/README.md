@@ -7,7 +7,6 @@ This example shows how to track previously-detected objects cross multiple frame
 
 _**Key stages in detection and tracking of nuclei.** (Left) Raw images showing nuclei over time. (Middle) Centroids of detected nuclei highlighted with orange spots. (Right) Trajectories of tracked nuclei represented by lines, colour-coded according to instantaneous velocity._
 
-
 This example introduces the following concepts:
 - Using the "Spot detection" module
 - Using the "Track objects" module

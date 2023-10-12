@@ -5,7 +5,7 @@ This example shows how to use skeletonisation to measure the length of filamento
 
 ![Example output](./resources/example.png)
 
-_**Segmentation of DNA from Atomic Force Microscope (AFM) images.** (Left) Raw images showing linearised DNA depoaited onto mica surface. (Right) Detected DNA molecules colour-coded according to whether they are single molecules (cyan) or are  comprised of multiple overlapping molecules (magenta).. Molecules on the umage edge are automatically discarded._
+_**Segmentation of DNA from Atomic Force Microscope (AFM) images.** (Left) Raw images showing linearised DNA deposited onto mica surface. (Right) Detected DNA molecules colour-coded according to whether they are single molecules (cyan) or are  comprised of multiple overlapping molecules (magenta). Molecules on the image edge are automatically discarded._
 
 This example introduces the following concepts:
 - Using skeletonisation to measure the length of filamentous objexts

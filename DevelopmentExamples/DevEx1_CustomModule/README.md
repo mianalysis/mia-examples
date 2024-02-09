@@ -20,12 +20,24 @@ The main MIA documentation can be found at https://mianalysis.github.io and the 
 
 Adding MIA as a dependency
 --------------------------
-MIA can be added to Maven projects using the following dependency:
+MIA can be added to Maven projects using the following dependencies:
 ```
 <dependency>
     <groupId>io.github.mianalysis</groupId>
-    <artifactId>mia</artifactId>
-    <version>1.2.10</version>
+    <artifactId>mia-core</artifactId>
+    <version>1.5.1</version>
+</dependency>
+
+<dependency>
+    <groupId>io.github.mianalysis</groupId>
+    <artifactId>mia-modules</artifactId>
+    <version>1.5.1</version>
+</dependency>
+
+<dependency>
+    <groupId>io.github.mianalysis</groupId>
+    <artifactId>mia-plugin</artifactId>
+    <version>1.5.1</version>
 </dependency>
 ```
 

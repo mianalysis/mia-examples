@@ -44,6 +44,7 @@ import io.github.mianalysis.mia.object.system.Status;
 import io.github.mianalysis.mia.process.ColourFactory;
 import io.github.mianalysis.mia.process.math.CumStat;
 import net.imagej.ImageJ;
+import net.imagej.patcher.LegacyInjector;
 
 /**
  * An example of a MIA Module.
@@ -115,11 +116,14 @@ public class ExampleModule extends Module {
      * @param args Can be left blank
      */
     public static void main(String[] args) {
+        // The following must be called before initialising ImageJ
+        LegacyInjector.preinit();
+        
         // Creating a new instance of ImageJ
         new ij.ImageJ();
 
         // Launching MIA
-        new ImageJ().command().run("io.github.mianalysis.mia.MIA", false);
+        new ImageJ().command().run("io.github.mianalysis.mia.MIA_", false);
 
         // Adding the current module to MIA's list of available modules.
         AvailableModules.addModuleName(ExampleModule.class);
@@ -218,7 +222,7 @@ public class ExampleModule extends Module {
         // Measuring intensity for each centroid object.  Iterating over each output centroid object.
         for (Obj outputObject : outputObjects.values()) {
             // The MeasureObjectIntensity module has a public method that allows the intensity of a single object to be measured for a specified image.  This returns a cumulative statistic (CumStat) object, from which we can extract statistics about the intensities of all coordinates in the specified object.  Here, the object only has a single point, so mean, min, max and sum will all have the same value.
-            CumStat cs = MeasureObjectIntensity.measureIntensity(outputObject, inputImage, false);
+            CumStat cs = MeasureObjectIntensity.measureIntensity(outputObject, inputImage, false, false);
 
             // Creating a new "Measurement" object to store the intensity of the centroid object.  As noted above, all statistics (bar the standard deviation) will have the same value, so the "mean" is used.
             Measurement intensity = new Measurement(Measurements.INTENSITY, cs.getMean());

@@ -43,8 +43,20 @@
 
         <dependency>
             <groupId>io.github.mianalysis</groupId>
-            <artifactId>mia</artifactId>
-            <version>1.4.2</version>
+            <artifactId>mia-core</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.mianalysis</groupId>
+            <artifactId>mia-modules</artifactId>
+            <version>1.5.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.mianalysis</groupId>
+            <artifactId>mia-plugin</artifactId>
+            <version>1.5.1</version>
         </dependency>
     </dependencies>
 </project>

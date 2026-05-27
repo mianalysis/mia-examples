@@ -13,6 +13,7 @@ For the full MIA documentation, please go to [mianalysis.github.io](https://mian
 |[Introduction to object segmentation](./Ex1_NucleiSegmentation/)|![Example 1](./Ex1_NucleiSegmentation/resources/example_sm.gif)|
 |[Object tracking and analysis](./Ex2_ObjectTracking/)|![Example 2](./Ex2_ObjectTracking/resources/example_sm.gif)|
 |[Object relationships and skeletonisation](./Ex3_Skeletonisation/)|![Example 3](./Ex3_Skeletonisation/resources/example_sm.png)|
+|[Manual segmentation](./Ex4_ManualSegmentation/)|![Example 4](./Ex4_ManualSegmentation/resources/example_sm.png)|
 
 Usage
 ------------
